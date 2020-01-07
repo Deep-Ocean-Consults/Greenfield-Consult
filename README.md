@@ -1,0 +1,2 @@
+# Greenfield-Consult
+Greenfield Consult teach individuals and professionals how to Speak and Write well. We offer specialist training services on customized courses for corporate organizations. Greenfield Consult publish and sell rare books on effective communication. Greenfield Consult provide consultancy services on book publishing, book writing, journalistic writing, editing and personal development programmes. 
