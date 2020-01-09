@@ -15,9 +15,6 @@
 									<a class="nav-link" href="index.php">Home</a>
 								</li>
 								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 <?php if($page=='What we do'){echo 'active';}?>">
-									<a class="nav-link" href="what-we-do.php">About us</a>
-								</li>
-								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 <?php if($page=='What we do'){echo 'active';}?>">
 									<a class="nav-link" href="what-we-do.php">Services</a>
 								</li>
 								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">

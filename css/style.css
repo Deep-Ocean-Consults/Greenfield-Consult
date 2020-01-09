@@ -192,6 +192,10 @@ body {
     overflow: hidden;
 }
 
+.m-bottom {
+    margin-bottom: 20px;
+}
+
 .absolute-center {
     position: absolute;
     top: 50%;
@@ -473,7 +477,6 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .about-greenfield {
     padding: 50px 0;
-    background-color: #00D053;
     margin-top: -23px;
 }
 
@@ -481,6 +484,11 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     line-height: 30px;
     font-size: 15px;
     text-align: justify;
+    color: #000;
+}
+
+.border-right {
+    border-right: 2px solid #000;
 }
 
 .greenfield_courses {
@@ -518,11 +526,24 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     background-color: #000;
     color: #fff;
     margin-top: 20px;
+    padding: 15px 75px;
+    border-radius: 2px;
+}
+
+.course-button {
+    float: right;
+    background-color: #000;
+    color: #fff;
+    margin-top: 20px;
+    padding: 15px 75px;
+    border-radius: 2px;
+    margin-bottom: 20px;
 }
 
 .session-button:hover {
     background-color: #00D053;
     color: #fff;
+    text-decoration: none;
 }
 
 .service-overlay {

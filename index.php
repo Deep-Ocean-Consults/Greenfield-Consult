@@ -32,7 +32,7 @@
 		<div class="about-greenfield">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-6 border-right">
 						<div class="aboutt">
 							<h2>
 								Who we are
@@ -41,7 +41,6 @@
 								Greenfield consult started business in March 2000 as a specialist training centre where individuals and professionals learn how to speak and write well. 
 								Five main courses were taught, namely: Public Speaking and Presentation, Business Writing, Elocution, Grammar and Vocabulary Building, and Foundation English classes. 
 								Through the dynamic leadership of its founder and principal facilitator, Henry Agbebire, Greenfield consult has broadened its scope of specialist training and consultancy services. 
-								Take a look at some of our services.
 							</p>
 						</div>
 					</div>
@@ -56,15 +55,13 @@
 										<p>
 											We believe in facilitating learning. We will go beyond simply instructing participants to the actual creation of high-energy group discussions, role-plays, along with other tools and techniques to create a multi cerebral learning experience. 
 											Our training sessions are predominantly engaging and they include experience-sharing, group work, videos, practices and presentations. Participants have the opportunity to discuss ideas and present solutions. 
-											Participants are tested regularly with quizzes after each major topic is taught to determine their level of understanding. For the courses to be adequately customized to suit the needs of participants, the EPL (English Proficiency Level) of every participant would be audited with quizzes before training commences. 
-											Theory 40%; Practical 60%
 										</p>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-						<a href="contact.php" type="button" class="btn btn-lg session-button">Book A Session</a>
+						<a href="contact.php" type="button" class=" session-button">Book A Session</a>
 				</div>
 			</div>
 		</div>
@@ -117,54 +114,59 @@
 			</div>
 		</div>
 
-		<div class="clearfix">
-		</div>
-
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4">
-					<div class="card homepage_course_card">
-						<div class="card-body">
-							<b>
-								Effective Writing Course (10Hrs)
-							</b>
-							<p class="course_paragraph">
-								In this course, you will learn how to write simple and effective compositions. Special attention is given to Business Correspondence, Report Writing, Proposals.
-							</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-4">
-					<div class="card homepage_course_card">
-						<div class="card-body">
-							<b>
-								COMMUNICATION AND COMMUNICATION ETIQUETTE 
-							</b>
-							<p class="course_paragraph">
-								The course is specifically designed to help participants learn the rudiments and intricate art of communication effectively with restraints, tact, dignity, modesty and politeness.
-							</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-4">
-					<div class="card homepage_course_card">
-						<div class="card-body">
-							<b>
-								EFFECTIVE BUSINESS WRITING COURSE
-							</b>
-							<p class="course_paragraph">
-								The course is specifically designed to help participants learn the rudiments and intricate art of writing flawless correspondence, proposals, and reports. It is a two-day intensive training.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
 		<div class="clearfix"></div>
 
-		<div class="container">
+		<div class="m-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="card homepage_course_card">
+							<div class="card-body">
+								<b>
+									Effective Writing Course (10Hrs)
+								</b>
+								<p class="course_paragraph">
+									In this course, you will learn how to write simple and effective compositions. Special attention is given to Business Correspondence, Report Writing, Proposals.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="card homepage_course_card">
+							<div class="card-body">
+								<b>
+									COMMUNICATION AND COMMUNICATION ETIQUETTE 
+								</b>
+								<p class="course_paragraph">
+									The course is specifically designed to help participants learn the rudiments and intricate art of communication effectively with restraints, tact, dignity, modesty and politeness.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="card homepage_course_card">
+							<div class="card-body">
+								<b>
+									EFFECTIVE BUSINESS WRITING COURSE
+								</b>
+								<p class="course_paragraph">
+									The course is specifically designed to help participants learn the rudiments and intricate art of writing flawless correspondence, proposals, and reports. It is a two-day intensive training.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a href="contact.php" type="button" class="course-button">
+					Book A Session
+				</a>
+			</div>
+		</div>
+		
+		<div class="clearfix"></div>
+
+		<!-- <div class="container">
 			<div class="client-logo">
 				<h2>Our Clients</h2>
 				<span>
@@ -182,7 +184,8 @@
 					<div class="slide"><img src="https://image.freepik.com/free-vector/retro-label-on-rustic-background_82147503374.jpg"></div>
 				</section>
 			</div>
-		</div>
+		</div> -->
+		
     <?php include 'footer.php';?>
 </body>
 </html>
