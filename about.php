@@ -39,30 +39,66 @@
     </div>
 
     <div class="specialties">
-        <h2>
-            our focus
-        </h2>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="">
-                        <span class="fa-stack fa-4x">
-                            <i class="fa fa-circle fa-stack-2x icon-background"></i>
-                            <i class="fa fa-file-o fa-stack-1x"></i>
-                        </span>
+        <div class="specialties-overlay">
+            <h2>
+                our focus
+            </h2>
+            <div class="focus_div">
+                <div class="container m-top">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="focus-div">
+                                <img src="images/greenfieldspeak.png" alt="GREENFIELD SPEAKING SKILL" height="100px">
+                                <span>Speaking Skills</span>
+                                <p>
+                                    focusing on course specific English vocabulary building, pronunciation and articulation.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="focus-div">
+                            <img src="images/greenfieldspeak.png" alt="GREENFIELD SPEAKING SKILL" height="100px">
+                            <i class="fal fa-pen-square"></i>
+                                <span>Listening Skills</span>
+                                <p>
+                                    focusing on course specific listening exercises, with recorded material of native and non-native speakers
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="focus-div">
+                                <img src="images/greenfieldspeak.png" alt="GREENFIELD SPEAKING SKILL" height="100px">
+                                <span>Reading Skills</span>
+                                <p>
+                                    using interesting and stimulating text, in line with your English course    
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="focus-div">
+                                <img src="images/greenfieldspeak.png" alt="GREENFIELD SPEAKING SKILL" height="100px">
+                                <span>Writing Skills</span>
+                                <p>
+                                    perfecting your writing skills, whether you are in the general or business module
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-3">
-
-                </div>
-                <div class="col-md-3">
-
-                </div>
-                <div class="col-md-3">
-
-                </div>
             </div>
+            
         </div>
     </div>
+    
+    <!-- <div class="greenfieldteam">
+        <div class="container">
+            <div class=row>
+
+            </div>
+        </div>
+    </div> -->
+
+    <?php include 'footer.php';?>
+    
 </body>
 </html>
