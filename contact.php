@@ -28,32 +28,46 @@
     </div> 
 
     <div class="form-wrap">
-        <h2>Get in touch</h2>
+        <h2 class="form-wrap-h2">Get in touch</h2>
         <div class="container">
-            <form>
-                <div class="row row_one">
-                    <div class="col">
-                    <input type="text" class="form-control" placeholder="First name">
-                    </div>
-                    <div class="col">
-                    <input type="text" class="form-control" placeholder="Last name">
-                    </div>
-                </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <form>
+                        <div class="row row_one">
+                            <div class="col">
+                            <input type="text" class="form-control" placeholder="First name">
+                            </div>
+                            <div class="col">
+                            <input type="text" class="form-control" placeholder="Last name">
+                            </div>
+                        </div>
 
-                <div class="row row_one">
-                    <div class="col">
-                    <input type="email" class="form-control" placeholder="Email">
-                    </div>
-                    <div class="col">
-                    <input type="text" class="form-control" placeholder="Phone Number">
-                    </div>
-                </div>
+                        <div class="row row_one">
+                            <div class="col">
+                            <input type="email" class="form-control" placeholder="Email">
+                            </div>
+                            <div class="col">
+                            <input type="text" class="form-control" placeholder="Phone Number">
+                            </div>
+                        </div>
 
-                <div class="form-group">
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                        <div class="form-group">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-lg submit-btn">Submit</button>
+                    </form>
                 </div>
-                <button type="submit" class="btn btn-lg submit-btn">Submit</button>
-            </form>
+                <div class="col-md-6">
+                    <div class="enquiry">
+                        <h2>General Information</h2>
+                        <ul>
+                            <li>Opening Time:8:am</li>
+                            <li>Closing Time:5:00pm</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
         </div>
     </div>
 

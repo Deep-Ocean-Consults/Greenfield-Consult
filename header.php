@@ -11,8 +11,11 @@
 						</button>
 						<div class="collapse navbar-collapse" id="navbarSupportedContent">
 							<ul class="navbar-nav ml-auto py-4 py-md-0">
-							<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 <?php if($page=='Home'){echo 'active';}?>">
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 <?php if($page=='Home'){echo 'active';}?>">
 									<a class="nav-link" href="index.php">Home</a>
+								</li>
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 <?php if($page=='About'){echo 'active';}?>">
+									<a class="nav-link" href="about.php">About</a>
 								</li>
 								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 <?php if($page=='What we do'){echo 'active';}?>">
 									<a class="nav-link" href="what-we-do.php">Services</a>

@@ -39,20 +39,25 @@
                 </div>
             </div>
         </div>
+        
+        <div class="greenfield-culture">
+            <div class="culture">
+                <div class="container">
+                    <div class="training">
+                        <h2>
+                            training culture
+                        </h2>
+                        <p>
+                            Our training sessions are intensive and excitingly rigorous to offer you an opportunity for self development. You are assessed at the beginning of the course and your progress is monitored continuously. Class sizes are kept small so that all participants receive individual attention. Courses are tailored to suit the need of individual participant, and academic discussions are done in a livelier way than that of the traditional school room. We make learning simple and exciting.Group courses are generally modular. This means that every week’s programme constitutes a self-contained package of its own.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <div class="greenfield">
+        <!-- <div class="greenfield">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="training">
-                            <h2>
-                                training culture
-                            </h2>
-                            <p>
-                                Our training sessions are intensive and excitingly rigorous to offer you an opportunity for self development. You are assessed at the beginning of the course and your progress is monitored continuously. Class sizes are kept small so that all participants receive individual attention. Courses are tailored to suit the need of individual participant, and academic discussions are done in a livelier way than that of the traditional school room. We make learning simple and exciting.Group courses are generally modular. This means that every week’s programme constitutes a self-contained package of its own.
-                            </p>
-                        </div>
-                    </div>
                     <div class="col-md-6">
                         <div class="greenfieldteam">
                             <h2>
@@ -98,7 +103,7 @@
                                             <li>Business English and Communication for Professionals</li>
                                         </ul>
                                         <p>
-                                            These books are in high demand in different parts of the world. Henry is a very busy and highly engaged speaker and trainer. He is constantly in high demand in Europe and America, where he speaks to groups and individuals who use English as a second language. Henry is happily married to Irene and the marriage is blessed with two lovely children, Delwyn and Misan..
+                                            These books are in high demand in different parts of the world. Henry is a very busy and highly engaged speaker and trainer. He is constantly in high demand in Europe and America, where he speaks to groups and individuals who use English as a second language. Henry is happily married to Irene and the marriage is blessed with two lovely children, Delwyn and Misan.
                                         </p>
                                     </div>
                                 </div>
@@ -106,6 +111,46 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div> -->
+
+        <div class="greenfieldstrength">
+            <div class="greenfieldstrength-overlay">
+                <h2>what makes us different</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="strength">
+                                <img src="images/strategy.png" alt="">
+                                <span>We Take A Holistic Approach</span>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi modi porro minus vel praesentium ad sequi reprehenderit impedit, adipisci et explicabo corporis temporibus totam nostrum commodi libero odit cupiditate saepe.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="strength">
+                                <img src="images/focused.png" alt="">
+                                <span>We Are Result Focused</span>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi modi porro minus vel praesentium ad sequi reprehenderit impedit, adipisci et explicabo corporis temporibus totam nostrum commodi libero odit cupiditate saepe.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="strength">
+                                <img src="images/record.png" alt="">
+                                <span>We Have A Proven Track Record</span>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi modi porro minus vel praesentium ad sequi reprehenderit impedit, adipisci et explicabo corporis temporibus totam nostrum commodi libero odit cupiditate saepe.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="contact.php" type="button" class="session-button service-btn">
+                    Book A Session
+                </a>
             </div>
         </div>
         <?php include 'footer.php';?>

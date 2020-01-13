@@ -572,7 +572,7 @@
         
         .our-services p {
             text-align: justify;
-            line-height: 30px;
+            line-height: 35px;
         }
         
         .what-we-do {
@@ -585,17 +585,42 @@
             text-align: center;
             letter-spacing: 1px;
             margin-top: 20px;
+            font-size: 20px;
+        }
+        
+        .greenfield-culture {
+            background: url(../images/training-culture.jpg) no-repeat 0px 0px;
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            -webkit-background-size: 100% auto;
+            -moz-background-size: 100% auto;
+            -o-background-size: 100% auto;
+            -moz-background-size: 100% auto;
+            background-position: center;
+            background-attachment: fixed;
+            height: 450px;
+        }
+        
+        .culture {
+            background-color: #000;
+            opacity: 0.8;
+            height: 450px;
+        }
+        
+        .training {
+            padding: 60px 0;
         }
         
         .training h2 {
             color: #fff;
+            padding-top: 30px;
         }
         
         .training p {
             text-align: justify;
-            line-height: 30px;
-            margin-top: 55px;
+            line-height: 35px;
             color: #fff;
+            letter-spacing: 1px;
         }
         
         .specialties {
@@ -607,18 +632,27 @@
             -o-background-size: 100% auto;
             -moz-background-size: 100% auto;
             background-position: center;
-            height: 400px;
+            background-attachment: fixed;
+            height: 450px;
         }
         
         .specialties-overlay {
             background-color: #000;
-            height: 400px;
+            height: 450px;
             opacity: 0.8;
         }
         
         .specialties-overlay h2 {
             color: #fff;
             padding-top: 30px;
+        }
+        
+        .focus-div {
+            padding: 0 10px;
+        }
+        
+        .focus-div:not(:last-child) {
+            border-right: 1px solid #fff;
         }
         
         .focus-div img {
@@ -628,10 +662,8 @@
         }
         
         .focus-div p {
-            text-align: justify;
+            text-align: center;
             color: #fff;
-            word-spacing: 10px;
-            inline-height: 10px;
         }
         
         .focus-div span {
@@ -656,6 +688,27 @@
         .greenfieldteam h2 {
             text-align: center;
             color: #fff;
+        }
+        
+        .teem-div {
+            padding: 50px 0;
+        }
+        
+        .teem-div img {
+            display: block;
+            margin: 0 auto;
+        }
+        
+        .teem-div span {
+            display: block;
+            text-align: center;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        
+        .teem-div p {
+            text-align: justify;
+            font-size: 13px;
         }
         
         .greenfieldteam span {
@@ -722,6 +775,51 @@
         
         .course-card {
             height: 390px;
+        }
+        
+        .greenfieldstrength {
+            background-image: url(../images/bg.png);
+            background-repeat: no-repeat;
+            height: 460px;
+            background-position: center;
+            background-size: 100% auto;
+            background-size: cover;
+        }
+        
+        .greenfieldstrength-overlay {
+            background-color: ;
+            opacity: 0.6;
+            height: 460px;
+        }
+        
+        .strength img {
+            display: block;
+            margin: 0 auto;
+            height: 70px;
+        }
+        
+        .strength span {
+            font-weight: bold;
+            padding-top: 20px;
+            display: block;
+            text-align: center;
+        }
+        
+        .strength p {
+            font-size: 13px;
+            text-align: justify;
+            line-height: 30px;
+            color: #000;
+        }
+        
+        .service-btn {
+            width: 21%;
+        }
+        
+        .greenfieldstrength-overlay h2 {
+            margin-top: 0px;
+            color: #000;
+            padding-top: 30px;
         }
         
         .card-content {
@@ -810,6 +908,11 @@
             color: #fff;
         }
         
+        .enquiry h2 {
+            font-size: 14px;
+            margin-top: 15p;
+        }
+        
         .contact-banner {
             background-image: url(../images/greenfieldContact.jpg);
             background-repeat: no-repeat;
@@ -820,6 +923,11 @@
         
         .form-wrap {
             padding: 50px 0;
+        }
+        
+        .form-wrap-h2 {
+            margin-top: -20px;
+            margin-bottom: 20px;
         }
         
         .row_one {
@@ -839,12 +947,19 @@
         }
         
         .about-banner {
-            background-image: url(../images/greenfieldAbout.jpg);
+            background-image: url(../images/book.jpg);
             background-repeat: no-repeat;
-            height: 500px;
-            background-position: contain;
+            height: 400px;
+            background-position: center;
             background-size: 100% auto;
             background-size: cover;
+            margin-top: 83px;
+        }
+        
+        .about-overlay {
+            background-color: #000;
+            height: 400px;
+            opacity: 0.6;
         }
         
         .about-wrapper p {
